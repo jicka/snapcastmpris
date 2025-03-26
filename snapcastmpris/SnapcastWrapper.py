@@ -114,7 +114,7 @@ class SnapcastWrapper(threading.Thread, SnapcastRpcListener):
 
     def start_snapclient_process(self):
         logging.info("starting Snapclient")
-        cmd = ["snapclient", "-e"]
+        cmd = ["snapclient"]
         if self.server_address is not None:
             cmd += ["-h", self.server_address]
         if self.server_streaming_port is not None:
