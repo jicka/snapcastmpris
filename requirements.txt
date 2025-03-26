@@ -3,4 +3,4 @@ websocket-client>=0.57
 zeroconf>=0.28
 pyalsaaudio
 dbus-python
-pygobject
+pygobject==3.50.0
